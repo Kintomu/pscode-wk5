@@ -9,10 +9,26 @@ ask for 2 numbers
 add the 2 number together 
 print on the screen the sum of those 2 numbers
 
+(
+Show prompt for first number
+read num1
+Show prompt for second number
+read num2
+sum = num1 + num2
+Show sum
+)
 
 // Exercise 2: Check if a Number is Even or Odd
 
-(Your pseudocode here)
+(
+Show prompt for number
+read number
+
+if number % 2 = 0 then
+show number is even
+else 
+show the number is odd  
+)
 
 // Exercise 3: 
 Write pseudo code that will perform the following.    
@@ -22,6 +38,28 @@ b) Calculate the average of the five numbers.
 c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
 d) Write out the results found from steps b and c with a message describing what they are
 
-(Your pseudocode here)
+(
+min
+max
+total
+
+i = 1
+While i < 6 
+show enter number "i"
+read number
+
+total = total + number
+if number < min then
+min = number
+if number > max then
+max = number
+end loop
+
+average = total/5
+
+show The average is average
+show The smallest number is min
+show The Largest number is max
+)
 
 -- END --
